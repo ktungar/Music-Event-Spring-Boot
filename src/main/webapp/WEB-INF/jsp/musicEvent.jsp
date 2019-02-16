@@ -56,7 +56,7 @@
 				for (var i = 0; i < response.length; i++) {
 
 					var eachMusicEvent = response[i];
-					console.log(eachMusicEvent);
+					
 					allMusicEvent += "<tr><td><label>"
 							+ eachMusicEvent["eventTitle"]
 							+ "</label></td><td><a href='"+eachMusicEvent["eventUrl"]+"' target='_blank'>Click Here</a></td><td><label>"
